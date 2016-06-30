@@ -1,4 +1,4 @@
-#Machine Leraning
+#Machine Learning
 
 Focused on anomaly detection, to prevent *DOS* ans so much more.
 
