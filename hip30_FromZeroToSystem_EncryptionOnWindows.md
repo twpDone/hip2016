@@ -132,7 +132,38 @@ gpupdate
 Run mimikatz on DC
 patch NTDS service
 Patch SID
-** gpupdate on client
+gpupdate on client
 [x] OK
+
+#Conclusion
+* first validate trust relation trust
+* 7 month to patch
+* Impact after patch : Forgot to say to change privileges for GPOs
+
+#Recover original Password
+1.Force Hibernation
+  * Set by default at 5% battery level
+  * Backup the Memory ... (hyberfile)
+2. Bypass Login screen
+3. Priv Esc
+4. Extract HyberFile
+5. Reset Local cache
+
+
+#Should be fixed now
+But the Auth by pass still work
+
+#Take Aways
+* Trust relationship not always validated
+* dont take physical security for granted
+* backward compat makes patching very difficult
+* Bypassing auth and priv esc without a single line of code
+* @ianhaken @gentilkiwi
+* Third time's a charm
+    * MS15-122
+    * MS16-014
+    * MS16-??? (July 2016)
+
+
 
 
