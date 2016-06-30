@@ -1,6 +1,49 @@
 #Voting between sharks
 by scytl
 
+##TLDR
+Online voting is an open door for many attacks and the targets of many attackers.
+You can do it *right* enven if there is a thousands ways to do it *wrong*.
+
+###You must have an end to end verification.
+
+* At your computer side
+You have control by checking your vote
+  * You must be able to check you vote
+    * A uniq return code is generated and sended to you before voting
+    * You can verify it after prparing your vote
+    * You can verify it after casting you vote
+
+* At network side
+You have integry check
+  * SSL encryption
+  * Bulletin encrypted on client side
+
+* At Election Board
+Integrity of counting and decryption
+  * Shamir secret sharing
+    * To avoid decryption by one person
+    * To avoid Administration of controlling the vote
+  * Homomorfic encryption
+    * Electoral Board can't decrypt one bulletin but all in one decrpytion operation
+    * Ensure counting and decryption is done right
+
+* Infrastructure
+Vote must be anonymous, so you need an authent wich generate an ananymous token
+  * Authent Service
+    * 2 step authent 
+    * Separated off the ballot box service
+
+###TLDR Conclusion
+* Similar to classical vote
+* Protected by various crypto properties
+* Better than postal
+* But you cant trust the endpoint, you have to verify (certificates etc)
+* Reduce attack surface 
+  * short time exposition
+  * 2 step authent
+  * air gapped networks
+
 ##Internet Votting
 Thousand ways to do it *wrong*
 
