@@ -1,3 +1,3 @@
 # hip2016
 
-Quick and dirty notes and the talks.
+Quick and dirty notes of the talks.
