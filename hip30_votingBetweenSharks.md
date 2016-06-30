@@ -4,10 +4,10 @@ by scytl
 ##Internet Votting
 Thousand ways to do it *wrong*
 
-*Voting machines 
-*Online sites 
-**onsite
-**remote
+* Voting machines 
+* Online sites 
+  * onsite
+  * remote
 
 Convenient
 
@@ -17,12 +17,12 @@ Physical paper + poll site
 Increase risks
 
 ##What could be wrong 
-*privacy
-*integrity
-*malware
-*privates companies
-*voter coercion
-*hacking
+* privacy
+* integrity
+* malware
+* privates companies
+* voter coercion
+* hacking
 
 EG. :Mafia can buy votes, a lot of things can go wrong...
 
@@ -46,9 +46,9 @@ Not decrypting individual votes, but all in one with "homomorphic encryption"
 =Efficient but restricted representation
 
 ##How Can I be sured that my vote have been counted
-*Traditionnal vote*
-*ballot in the ballot box, you can see it
-*you sign
+* Traditionnal vote*
+* ballot in the ballot box, you can see it
+* you sign
 
 ###tracing to decryption
 *With e-vote*
@@ -69,8 +69,8 @@ Because the bulletin is encrypted, i can't check my own vote
 At reception the server return the number of your choice 
 Return code uniq for you
 After chosing :
-*Audit Bulletin
-*Cast Bulletin
+* Audit Bulletin
+* Cast Bulletin
 
 To avoid sending decryption info
 We can decrypt on server then encrypt and send encrypt for voter
@@ -93,21 +93,21 @@ cant vote with false credentials
 
 ###Prevent from hacking
 Reduce attack surfaceisolated/offlin server for critical
-*Few endpoints
-*Short time frame
-*Patches
+* Few endpoints
+* Short time frame
+* Patches
 
 Sysadmin can access every thing
-*split responsability
-*all previous points
+* split responsability
+* all previous points
 Trust relies on Boards, auditor, ...
 Sysadmin can destroy anything
 Replace software ! *BUT we have end to end verifyability
 
 #Conclusion
-*A lot of advances sec controls
-*Better than postal
-*But you cant trust the endpoint, you have to verify
+* A lot of advances sec controls
+* Better than postal
+* But you cant trust the endpoint, you have to verify
 Based on many cryptographic properties
 
 
